@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 列表图片高度 -->
+	<dimen name="listitem_width">100dp</dimen>
+	<!-- 列表项的高度 -->
+	<dimen name="listitem_height">80dp</dimen>
+	
+	<dimen name="index_grid_item_width">100dp</dimen>
+	<dimen name="index_grid_item_height">80dp</dimen>
+	
+	<dimen name="index_grid2_item_width">200dp</dimen>
+	<dimen name="index_grid2_item_height">160dp</dimen>
+	
+	<!-- 设置界面中文字大小 -->
+	<dimen name="setting_view_textsize">18dp</dimen>
+</resources>

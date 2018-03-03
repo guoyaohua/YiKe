@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beijing"
+    android:orientation="horizontal"
+    android:padding="20dip" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2.5"
+            android:gravity="center"
+            android:text="点餐服务端设置"
+            android:textColor="#ffff00"
+            android:textSize="35sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="服务器地址："
+                android:textColor="#ffff00" 
+                android:textSize="25sp"/>
+
+            <EditText
+                android:id="@+id/et_foodip_setting_layout_new"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="#66ffffff" 
+                android:text="guoyaohua.vicp.net"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="服务器端口："
+                android:textColor="#ffff00"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/et_foodport_setting_layout_new"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="#66ffffff" 
+                android:text="8090"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="服务名称 ：  "
+                android:textColor="#ffff00"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/et_foodname_setting_layout_new"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="#66ffffff"
+                android:text="Server" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.5" />
+        <Button 
+            android:id="@+id/bt_setting_save"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2.5"
+            android:text="保存"
+            android:textSize="35sp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2.5"
+            android:gravity="center"
+            android:text="视频传输服务端设置"
+            android:textColor="#ffff00"
+            android:textSize="35sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="服务器地址："
+                android:textColor="#ffff00"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/et_videoip_setting_layout_new"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="#66ffffff"
+                android:text="guoyaohua.vicp.net" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="服务器端口："
+                android:textColor="#ffff00"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/et_videoport_setting_layout_new"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="#66ffffff"
+                android:text="8888" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.5" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="连接密码：  "
+                android:textColor="#ffff00" 
+                android:textSize="25sp"/>
+
+            <EditText
+                android:id="@+id/et_videopassword_setting_layout_new"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="#66ffffff"
+                android:password="true" 
+                android:text="123"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1.5" />
+        <Button 
+            android:id="@+id/bt_setting_back"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2.5"
+            android:text="返回"
+            android:textSize="35sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

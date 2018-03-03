@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@xml/index_grid_itembgclick"
+    
+    >
+
+    <!-- 主界面九宫格样式 -->
+
+    <LinearLayout
+        android:focusable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" 
+        android:descendantFocusability="blocksDescendants"
+        >
+
+        <ImageView
+            android:focusable="false"
+            android:id="@+id/ivIndexItemimg"
+            android:layout_width="@dimen/index_grid_item_width"
+            android:layout_height="@dimen/index_grid_item_height"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/index_groupitem_default_bg"
+            android:descendantFocusability="blocksDescendants" />
+
+        <TextView
+           android:focusable="false"
+            android:id="@+id/tvIndexItemValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp" 
+            android:descendantFocusability="blocksDescendants"
+            />
+
+        <TextView
+            android:focusable="false"
+            android:id="@+id/tv_personNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="18dp" 
+            android:descendantFocusability="blocksDescendants"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

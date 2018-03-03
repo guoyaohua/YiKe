@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">迅点</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <!-- 下拉刷新中相关文字 -->
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新...</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+    <!-- ListView底部加载更多提示的文字 -->
+    <string name="loading_moreValues">加载更多</string>
+    <string name="hasloading_moreValues">加载中...</string>
+    <!-- 请求数据并返回和加载数据相关提示 -->
+     <string name="network_error">网络连接异常</string>
+    <string name="all_data">以上是全部数据</string>
+    <string name="picValue">图片</string>
+    <string name="settingvalues">设置</string>
+    <string name="Loginvalues">登录</string>
+    <string name="forgetPwd">忘记密码</string>
+    <string name="register">注册</string>
+    <string name="search">搜索</string>
+     <string name="usercenter">个人中心</string>
+     <string name="feedback">意见反馈</string>
+    <string name="forgetpwdinfo">请填写您的信息,我们会将重置密码的连接发送给您的注册邮箱</string>
+    <string name="phonedetail">设备:%1$s 系统:%2$s 客户端版本:%3$s</string>
+    <string name="aboutvalue">关于</string>
+    <string name="about_info">您也可以通过以下方式与我们联系</string>
+    <string name="sustain">技术支持:浙江新华移动传媒有限公司</string>
+    <string name="baoliaovalues">我要爆料</string>
+    <string name="searchnodata_warn">没有找到符合的内容</string>
+    <string name="no_collection">您没有收藏相关信息哦!</string>
+    <string name="login_uname_isempty">请输入用户名或邮箱!</string>
+    <string name="login_upwd_isempty">请输入密码</string>
+    <string name="register_name_empty">请输入用户名</string>
+    <string name="register_emial_empty">请输入邮箱</string>
+    <string name="register_pwd_empty">请输入密码</string>
+    <string name="register_error_uname">用户名至少四个字符</string>
+    <string name="register_error_email">邮箱格式错误</string>
+    <string name="register_error_emailchinese">邮箱中不能有汉字</string>
+    <string name="register_error_pwd">密码为6到20个字符</string>
+    <string name="search_noinput_warn">请输入搜索关键字</string>
+    <string name="user_center_noplay_history">您还有播放过视频哦!</string>
+    <string name="feed_content">请输入反馈意见</string>
+    <string name="feed_email">请输入QQ号码或邮箱</string>
+    <string name="about_dialog_title">温馨提示</string>
+    <string name="about_dialog_msg">您确定拨打客服电话吗?</string>
+    <string name="exit_msg">您确定要注销用户吗?</string>
+    <string name="exit_first">注销</string>
+    <string name="about_dialog_buttonone">拨打</string>
+    <string name="about_dialog_buttontwo">取消</string>
+    <string name="delete_itemhistory">请稍等...正在删除中...</string>
+    <string name="delete_history_error">抱歉!删除播放记录失败!</string>
+    <string name="delete_history_success">删除播放记录成功!</string>
+    <string name="please_input_comment">请写下您想说的...</string>
+    <!-- 启动页面提示语 -->
+     <string name="flight_mode">请不要在飞行模式下使用本软件!</string>
+     <string name="dialog_title">系统提示</string>
+     <string name="dialog_msg">您现在网络不可用,是否进行设置</string>
+     <string name="dialog_first_btn">设置</string>
+     <string name="dialog_sec_btn">取消</string>
+     <string name="dialog_btn">确定</string>
+     
+     
+     <string name="warn_baoliaoinput">请输入爆料内容</string>
+     <string name="register_loading_msg">请稍等...正在操作...</string>
+     
+     <string name="faceback_value">谢谢您的反馈!</string>
+     <string name="download_pic_success">图片保存成功</string>
+     <string name="download_pic_error">图片保存失败</string>
+    <string  name="delete_all_collection_msg">您确定要清空所有收藏记录吗?</string>
+    <string name="delete_collection_clearall">清空</string>
+    <string name="live_program_nodata">暂无节目单</string>
+    <string name="isloading_data">请稍等...正在记载数据中...</string>
+    <string name="collection_success_add">成功添加收藏!</string>
+    <string name="collection_success_adderror">添加收藏失败!</string>
+    <string name="collection_cancel">成功取消收藏!</string>
+    <string name="collection_cancelerror">取消收藏失败!</string>
+    <string name="need_login">您需要先登录!</string>
+    <string name="share_model">//「%1$s」快来下载%2$s客户端：下载地址 %3$s</string>
+    <string name="baoliao_upload">请稍等...正在初始化数据...</string>
+    <string name="baoliao_choosepic">请您选择上传的图片!</string>
+    <!-- 应用的下载地址 -->
+    <string name="download_appUrl">http://www.baidu.com</string>
+    <string name="share_app">欢迎使用%1$s客户端,下载地址是:%2$s</string>
+    
+    <string name="clearbufftitle">清理缓存</string>
+    <string name="clearbuff_msg">您确定要清除所有缓存吗?</string>
+    <string name="clearbuff_btnone">清除</string>
+    <string name="clearbuff_btntwo">取消</string>
+    <string name="downloadimg_success">图片下载成功</string>
+    <string name="downloadimg_fail">图片下载失败</string>
+    <string name="pushtitle">推送消息</string>
+    <string name="userlogin">用户登录</string>
+    <string name="commentvalue">评论</string>
+    <string name="nomoredate">已加载所有</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">LoginPayDemo</string>
+    <string name="txt1">提交订单</string>
+    <string name="txt2">订单详情</string>
+    <string name="txt3">商品名称：</string>
+    <string name="txt4">支付金额：</string>
+    <string name="txt5">商品描述：</string>
+    <string name="txt6">提交订单</string>
+    <string name="txt7">玩铺游戏中心</string>
+    <string name="txt8">客服电话: 4006178378</string>
+    <string name="txt9">快捷支付</string>
+    <string name="txt10">返回</string>
+    <string name="txt11">请选择支付方式</string>
+    <string name="txt12">1.0</string>
+    <string name="txt13">LoginPayDemo</string>
+    <string name="txt14">LoginPayDemo</string>
+    <string name="txt15">LoginPayDemo</string>
+    <string name="txt16">LoginPayDemo</string>
+    <string name="txt17">LoginPayDemo</string>
+    <string name="txt18">LoginPayDemo</string>
+    <string name="txt19">登录</string>
+    <string name="txt20">充值</string>
+    <string name="txt21">账户：</string>
+    <string name="txt22">余额：</string>
+    <string name="txt23">充入金额：</string>
+    <string name="txt24">钱包充值</string>
+    <string name="txt25">关于余额钱包</string>
+    <string name="txt26">余额账户</string>
+    <string name="txt28">钱包余额:</string>
+    <string name="txt27">钱包余额</string>
+    <string name="txt29">确认付款</string>
+    <string name="txt30">请选择充值方式</string>
+    <string name="txt31">钱包充值</string>
+    <string name="txt32">请选择充值方式</string>
+    <string name="txt33">余额钱包是为用户提供余额管理的一项服务，可以使用多种支付方式充值。</string>
+	<string name="txt34">\t\t尊敬的用户，检测到您的的充值卡里还有余额，因充值卡不能再次使用，为了避免您的损失，已将余额自动存入到您的余额钱包中。</string>
+	<string name="txt35">请选择充值方式</string>
+	<string name="txt36">余额钱包介绍</string>
+	<string name="txt39">www.wanpu.com</string>
+	<string name="txt38">注：因充值卡不等额支付产生余额，为避免用户损失，将存入余额钱包，用户登录后可使用该余额。</string>
+    
+</resources>

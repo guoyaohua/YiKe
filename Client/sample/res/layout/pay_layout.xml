@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beijing"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="您的详细菜单如下：" 
+            android:textColor="#FFFF00"
+            android:textSize="25sp"/>
+
+        <ListView
+            android:id="@+id/lv_pay_listview"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="7" 
+            android:background="#77ffffff"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="20dip" >
+<TextView android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="3"/>
+        <Button
+            android:id="@+id/bt_pay_query"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:background="@drawable/chaxun_selector"
+            android:padding="20dip" />
+<TextView android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.5"/>
+        <Button
+            android:id="@+id/bt_pay_pay"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:background="@drawable/jiesuan_selector"
+            android:padding="20dip" />
+<TextView android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="0.5"/>
+        <Button
+            android:id="@+id/bt_back"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:background="@drawable/fanhui_selector"
+            android:padding="20dip" />
+    </LinearLayout>
+
+</LinearLayout>

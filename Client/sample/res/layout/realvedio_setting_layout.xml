@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background= "#55000000"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:padding="15dip">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" 
+            android:text="服务器地址："/>
+        <EditText 
+            android:id="@+id/et_realvedio_setting_ip"
+            android:layout_width="0dip"
+            android:layout_weight="7" 
+            android:layout_height="wrap_content" 
+            android:text="192.168.23.1"
+            />
+    </LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:padding="15dip">
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content" 
+            android:layout_weight="3" 
+            android:text="服务器端口："/>
+        <EditText 
+            android:id="@+id/et_realvedio_setting_port"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content" 
+            android:layout_weight="7" 
+            android:text="8888"
+            />
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dip" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_weight="3" 
+            android:layout_height="wrap_content" 
+            android:text="连接密码："/>
+        <EditText 
+            android:id="@+id/et_realvedio_setting_password"
+            android:password="true"
+            android:layout_width="0dip"
+            android:layout_weight="7" 
+            android:layout_height="wrap_content" 
+            android:text="123"
+            />
+    </LinearLayout>
+    
+</LinearLayout>

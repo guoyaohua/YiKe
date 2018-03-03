@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@xml/index_grid_itembgclick"
+     android:descendantFocusability="blocksDescendants"
+    >
+
+    <!-- 主界面九宫格样式 -->
+
+    <LinearLayout
+        android:focusable="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:focusable="false"
+            android:id="@+id/iv_index_item_pic"
+            android:layout_width="@dimen/index_grid2_item_width"
+            android:layout_height="@dimen/index_grid2_item_height"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/index_groupitem_default_bg" />
+
+        <TextView
+           android:focusable="false"
+            android:id="@+id/tv_index_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:text="测试：菜品名"
+            android:textSize="18dp" />
+
+        <TextView
+            android:focusable="false"
+            android:id="@+id/tv_index_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/yuan"
+            android:text="测试：100"
+            android:textSize="18dp" />
+        <TextView 
+            android:id="@+id/tv_index_item_info"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            />
+        <TextView 
+            android:id="@+id/tv_index_item_foodid"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            />
+        <TextView 
+            android:id="@+id/tv_index_item_url"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/denglujiemian"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="bottom|center_horizontal"
+    android:orientation="vertical" 
+    android:id="@+id/login_layout_linearLayout"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal"
+        android:padding="15dp"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="用户名："
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_userId"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:background="#77ffffff"
+            android:hint="请输入用户名"
+            android:text="admin"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="    密码：" 
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:background="#77ffffff"
+            android:hint="请输入密码"
+            android:password="true"
+            android:singleLine="true"
+            android:text="123"
+            />
+
+        <TextView
+            android:layout_width="15dip"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/denglu_selector" />
+    </LinearLayout>
+
+</LinearLayout>

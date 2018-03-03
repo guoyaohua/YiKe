@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>WirelessOrder_Server</display-name>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>FeedBackServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.FeedBackServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FeedBackServlet</servlet-name>
+    <url-pattern>/servlet/FeedBackServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PayMoneyServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.PayMoneyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PayMoneyServlet</servlet-name>
+    <url-pattern>/servlet/PayMoneyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>StartTableServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.StartTableServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderDetailServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.OrderDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PayServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.PayServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckTableServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.CheckTableServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangeTableServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.ChangeTableServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UnionTableServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.UnionTableServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UnionTableServlet2</servlet-name>
+    <servlet-class>com.amaker.servlet.UnionTableServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StartTableServlet</servlet-name>
+    <url-pattern>/servlet/StartTableServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderDetailServlet</servlet-name>
+    <url-pattern>/servlet/OrderDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PayServlet</servlet-name>
+    <url-pattern>/servlet/PayServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckTableServlet</servlet-name>
+    <url-pattern>/servlet/CheckTableServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/servlet/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangeTableServlet</servlet-name>
+    <url-pattern>/servlet/ChangeTableServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UnionTableServlet</servlet-name>
+    <url-pattern>/servlet/UnionTableServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UnionTableServlet2</servlet-name>
+    <url-pattern>/servlet/UnionTableServlet2</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <filter-name>EF</filter-name>
+    <filter-class>com.amaker.filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>EF</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>UpdateTableTblServlet</display-name>
+    <servlet-name>UpdateTableTblServlet</servlet-name>
+    <servlet-class>com.amaker.servlet.UpdateTableTblServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateTableTblServlet</servlet-name>
+    <url-pattern>/servlet/UpdateTableTblServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

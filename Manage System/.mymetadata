@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Smile"
+  id="myeclipse.1401937515715"
+  context-root="/Smile"
+  j2ee-spec="5.0"
+  archive="Smile.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

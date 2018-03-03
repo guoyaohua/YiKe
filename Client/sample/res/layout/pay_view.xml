@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="center_vertical"
+	android:background="#FFFFFF">
+   	<LinearLayout 
+   		android:id="@+id/phone_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dip"
+		android:paddingTop="5dip"
+		android:paddingRight="10dip"
+		android:paddingBottom="5dip"
+		android:layout_alignParentBottom="true"
+		android:background="#A3B0C1">
+		
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="14sp"
+			android:textColor="#FFFFFF"/>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="right">
+			<TextView
+				android:id="@+id/telephone"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/txt8"
+				android:textSize="14sp"
+				android:textColor="#FFFFFF"/>
+		</LinearLayout>
+		
+	</LinearLayout>
+   
+   
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_alignParentTop="true"
+	    android:layout_above="@id/phone_layout">
+		
+		<RelativeLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:paddingTop="8dip"
+			android:paddingBottom="8dip"
+			android:background="#4D586E">
+			
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:text="@string/txt9"
+				android:textSize="20sp"
+				android:textColor="#FFFFFF"/>
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="8dip"
+				android:gravity="center_vertical">
+				<Button
+					android:id="@+id/btn_back"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/txt10"
+					android:paddingTop="5dip"
+					android:paddingBottom="5dip"
+					android:textColor="#FFFFFF"
+					android:background="@drawable/wppay_btn_back_selector"/>
+			</LinearLayout>
+			
+			
+		</RelativeLayout>
+		
+		<ScrollView
+			android:id="@+id/scrollView"
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent">
+		    <LinearLayout
+		    	android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:orientation="vertical">
+		    	<LinearLayout 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:paddingTop="8dip"
+					android:paddingBottom="8dip"
+					android:orientation="vertical">		    	    		    	    
+					<LinearLayout
+						android:id="@+id/goods_info_bg"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content">
+						<LinearLayout
+							android:id="@+id/goods_info"
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginLeft="8dp"
+							android:layout_marginRight="8dp"
+							android:background="@drawable/yue_info_waps"
+							android:orientation="vertical">
+						
+							<LinearLayout 
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:orientation="horizontal"
+								android:paddingLeft="8dip"
+								android:paddingTop="8dip"
+								android:paddingBottom="3dip">
+								
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="@string/txt3"
+									android:textSize="15sp"
+									android:textColor="#000000"/>
+								
+								<TextView
+									android:id="@+id/goodsName"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:textSize="15sp"
+									android:textColor="#000000"/>
+								
+								
+							</LinearLayout>
+							
+							<LinearLayout 
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:orientation="horizontal"
+								android:paddingLeft="8dip"
+								android:paddingTop="3dip"
+								android:paddingBottom="6dip">
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="@string/txt4"
+									android:textSize="15sp"
+									android:textColor="#000000"/>
+								
+								<TextView
+									android:id="@+id/amount"
+									android:layout_width="fill_parent"
+									android:layout_height="wrap_content"
+									android:textSize="15sp"
+									android:textColor="#FF8C00"/>
+								
+							</LinearLayout>
+						
+						</LinearLayout>						
+						
+					</LinearLayout>
+					
+				</LinearLayout>
+				
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="8dip"
+					android:background="@drawable/wppay_pay_type_bg"
+				>
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:paddingLeft="8dip"
+						android:paddingTop="4dip"
+						android:paddingBottom="4dip"
+						android:text="@string/txt11"
+						
+						android:textColor="#FFFFFF"
+					/>
+				</LinearLayout>
+				
+				<LinearLayout 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:paddingTop="3dip"
+					android:orientation="vertical">
+					
+					<ListView
+						android:id="@+id/listView"
+						android:layout_width="fill_parent"
+						android:layout_height="fill_parent"
+						android:divider="#77cccccc"
+						android:dividerHeight="0.5dp"/>
+					
+				</LinearLayout>
+		    </LinearLayout>
+		    
+		</ScrollView>
+		
+		
+	</LinearLayout>
+
+</RelativeLayout>
+
+

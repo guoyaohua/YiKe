@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.guoyaohua.activity"
+    android:versionCode="65"
+    android:versionName="2.4.1" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:name="com.guoyaohua.app.App"
+        android:icon="@drawable/tubiao"
+        android:label="迅点" >
+        <activity
+            android:name="com.guoyaohua.activity.Welcome"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+             android:name="com.guoyaohua.activity.GuideActivity"
+             android:label="@string/app_name"
+             android:screenOrientation="landscape"
+             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+         </activity>
+
+        <activity
+            android:name="com.guoyaohua.activity.Login"
+            android:icon="@drawable/tubiao"
+            android:label="迅点无线点餐系统--登录"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.guoyaohua.activity.RealVedioActivity"
+            android:icon="@drawable/tubiao"
+            android:label="迅点无线点餐系统--厨房实景"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.guoyaohua.activity.ViewPagerListViewActivity"
+            android:label="迅点无线点餐系统--点菜"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/StyledIndicators" >
+        </activity>
+        <activity
+            android:name="com.guoyaohua.activity.ViewPagerListViewActivity2"
+            android:label="迅点无线点餐系统--桌位管理"
+            android:screenOrientation="landscape"
+            android:theme="@style/StyledIndicators" >
+        </activity>
+        <activity
+            android:name="com.guoyaohua.activity.MainMenu"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="迅点无线点餐系统--主菜单"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.guoyaohua.activity.Order"
+            android:label="迅点无线点餐系统--购物车"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.guoyaohua.widget.OrderDetails"
+            android:label="迅点无线点餐系统--菜品详情"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.guoyaohua.activity.PayActivity"
+            android:label="迅点无线点餐系统--结账"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.guoyaohua.activity.FeedBackActivity"
+            android:label="迅点无线点餐系统--评分反馈"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.guoyaohua.activity.SettingActivity"
+            android:label="迅点无线点餐系统--设置"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.guoyaohua.activity.AboutUsActivity"
+            android:label="关于我们"
+            android:screenOrientation="landscape" />
+        
+        <activity
+            android:name="com.guoyaohua.activity.PayDailog"
+            android:label="请选择支付方式"
+            android:screenOrientation="landscape"
+            android:theme="@style/dialog" />
+        <activity
+            android:name="com.wanpu.pay.PayView"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name="com.payeco.android.plugin.PayecoPluginLoadingActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.payeco.android.plugin.PayecoOrderDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.payeco.android.plugin.PayecoPayResultActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.payeco.android.plugin.PayecoWebViewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.payeco.android.plugin.PayecoRiskControlActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.unionpay.uppay.PayActivityEx"
+            android:configChanges="orientation|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.UPPay" />
+
+        <provider
+            android:name="com.guoyaohua.provider.TableProvider"
+            android:authorities="com.amaker.provider.TABLESa" />
+        <provider
+            android:name="com.guoyaohua.provider.MenuProvider"
+            android:authorities="com.amaker.provider.MENUSa" />
+    </application>
+    <!-- 权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READER_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 以下为银行卡支付需多添加的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+   
+    
+</manifest>

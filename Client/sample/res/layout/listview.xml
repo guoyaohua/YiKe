@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFffff00"
+    >
+	
+<TextView 
+android:text="" 
+android:id="@+id/id_ListView" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:paddingRight="20px"/>
+
+<TextView 
+android:text="" 
+android:id="@+id/name_ListView" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:paddingRight="20px"
+/>
+
+
+<TextView 
+android:text="" 
+android:id="@+id/num_ListView" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:paddingRight="20px"
+/>
+
+<TextView 
+android:text="" 
+android:id="@+id/price_ListView" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:paddingRight="20px"
+/>
+
+<TextView 
+android:text="" 
+android:id="@+id/remark_ListView" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"
+android:paddingRight="20px"
+/>
+
+<CheckBox 
+android:text="" 
+android:id="@+id/flag" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content"/>
+
+</LinearLayout>

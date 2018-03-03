@@ -1,0 +1,90 @@
+body {
+	background-repeat: no-repeat;
+	background-color: #9CDCF9;
+	background-position: 0px 0px;
+}
+
+a {
+	font-size: 12px;
+	color: #007AB5;
+}
+
+a:link {
+	text-decoration: none;
+	color: #008EE3;
+}
+
+A:visited {
+	text-decoration: none;
+	color: #666666;
+}
+
+A:active {
+	text-decoration: none;
+}
+
+A:hover {
+	text-decoration: none;
+	color: #0066CC;
+}
+
+A.b:link {
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "Helvetica,微软雅黑,宋体";
+	color: #FFFFFF;
+}
+
+A.b:visited {
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "Helvetica,微软雅黑,宋体";
+	color: #FFFFFF;
+}
+
+A.b:active {
+	text-decoration: underline;
+	color: #FF0000;
+}
+
+A.b:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+h1 {
+	font-family: "宋体";
+	text-align: center;
+	color: #006BAB;
+	font-size: 42px;
+}
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+input {
+	border: 0px;
+	height: 18px;
+	border-color: #51A3CA;
+	color: #007AB5;
+}
+
+.btn {
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(../imageslogin/login_5.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 27px;
+}
+
+.font {
+	font-size: 12px;
+	text-decoration: none;
+	color: #007AB5;
+	line-height: 10px;
+}
+

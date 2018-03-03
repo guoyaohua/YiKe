@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <!-- 白色 -->
+    <color name="gray">#858585</color>
+    <!-- 灰色 -->
+    <color name="black">#000000</color>
+    <!-- 黑色 -->
+    <color name="yellowish">#e99323</color>
+    <!-- 透明-->
+    <color name="transparent">#00000000</color>
+	<!-- 红色   -->
+    <color name="read">#ff0000</color>
+    <!-- 半透明 -->
+    <color name="reansoarent_oneoftwo">#5a000000</color>
+    <!-- 登录注册等界面输入为空时显示文本颜色-->
+    <color name="input_empty_color">#E77354</color>
+</resources>

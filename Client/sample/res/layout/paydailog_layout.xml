@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/dia_bg" 
+    android:padding="15dip"
+    android:id="@+id/paydialog_LinearLayout">
+
+    <!-- android:background="#77ffffff" -->
+
+  
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+             android:textColor="#ffff00"
+            android:text="请选择结算方式：" />
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/bt_paydailog_crash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xianjinzhifu"
+             />
+
+        <TextView
+            android:layout_width="48dp"
+            android:layout_height="70dp" />
+
+        <Button
+            android:id="@+id/bt_paydailog_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/wangyinzhifu" />
+    </LinearLayout>
+
+</LinearLayout>

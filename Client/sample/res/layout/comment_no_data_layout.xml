@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/rlnodatalayout"
+    >
+<!--       android:visibility="gone" -->
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        >
+        <ImageView 
+         android:id="@+id/ivNotDataDefaultImg"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/nodata_default"
+         android:layout_centerHorizontal="true"
+         />
+      <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/ivNotDataDefaultImg"
+         android:textSize="18dp"
+         android:id="@+id/tvNotDataTxt"
+         android:textColor="@color/gray"
+         android:text="抱歉!暂无数据!"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="10dp"
+         />
+        
+    </RelativeLayout>
+</RelativeLayout>

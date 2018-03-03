@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@xml/newslist_item_click"
+   >
+    <ImageView 
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+		android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true"
+		android:id="@+id/ivindexloadimg"
+		android:background="@drawable/newlist_default_icon"
+		android:padding="2dp"
+		android:layout_marginRight="5dp"
+        />
+      <LinearLayout 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@id/ivindexloadimg"
+           android:layout_centerVertical="true"
+           android:orientation="vertical"
+          >
+          <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:textColor="#000000"
+               android:textSize="16sp"
+               android:id="@+id/tvNewsTitle"
+               android:singleLine="true"
+              />
+          <TextView 
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:lines="2"
+               android:textSize="14sp"
+               android:id="@+id/tvNewsIntro"
+               android:layout_marginTop="2dp"
+               android:ellipsize="end"
+              />
+           <TextView 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="14sp"
+               android:id="@+id/tvCommentCount"
+               android:layout_marginTop="2dp"
+               android:text=" "
+               android:layout_gravity="right"
+               android:gravity="center"
+               android:drawableLeft="@drawable/yuan"
+              />
+
+           <TextView
+               android:id="@+id/picurl"
+               android:layout_width="0dp"
+               android:layout_height="0dp"
+               android:text="aaa" />
+           <TextView
+               android:id="@+id/foodID"
+               android:layout_width="0dp"
+               android:layout_height="0dp"
+               android:text="aaa" />
+
+      </LinearLayout>
+      
+</RelativeLayout>
